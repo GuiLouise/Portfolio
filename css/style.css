@@ -108,17 +108,13 @@ a{
 .digitando h2{
     font-weight: 100;
     border-right: 2px solid white;
-    width: 29ch;
+    width: 31ch;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 5s steps(29), 
+    animation: typing 5s steps(31), 
     blinking .5s step-end alternate;
 
 }
-
-    
-
-
 
 @keyframes typing {
     from{/*from*/
