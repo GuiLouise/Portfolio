@@ -170,7 +170,7 @@ a{
 }
 
 .botoes{
-    margin: 15px;
+    margin: 15px auto;
     width: 95%;
     max-width: 800px;
     height: 100px;
