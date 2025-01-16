@@ -8,8 +8,10 @@ html{
 }
 
 body{
+    margin: 0 auto;
     height: 100%;
     background: linear-gradient(45deg, #0057b9, #ff00f2, #008fbe);
+    justify-content: center;
 }
 
 button{
@@ -23,7 +25,9 @@ button{
 .borda-baixa{
     border-bottom: white 1px solid;
     width: 70%;
+    height: 10pc;
     margin: 0 auto;
+    
 }
 
 .info-tela{
@@ -34,7 +38,10 @@ button{
 }
 
 header{
+    width: 100vw;
     margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
 
 a{
@@ -47,7 +54,7 @@ a{
     grid-template-columns: 3fr 2fr;
     background-color: #00e1ff3a;
     height: 50px;
-    width: 90%;
+    width: 90vw;
     left: 50%;
     border-radius: 50px;
     top: 25px;
@@ -55,8 +62,6 @@ a{
     align-items: center;
     z-index: 1;
 }
-
-
 
 
 .nav img{
@@ -73,14 +78,14 @@ a{
 
 .nav li, .nav a{
     margin: 0 auto;
-    font-size: 20px;
+    font-size: 16px;
     color: white;
     list-style: none;
 }
 
 
 .perfil{
-    width: 100%;
+    width: 100vw;
     height: 99vh;
     margin: 0 auto;
 
@@ -90,8 +95,10 @@ a{
 }
 
 .foto{
-    width: 300px;
-
+    width: 15vw;
+    min-width: 250px;
+    max-width: 300px;
+    margin-top: 50px;
     text-align: center;
 
 }
@@ -100,19 +107,40 @@ a{
     border: 3px solid white;
     border-radius: 50%;
     margin: 0 auto;
-    width: 200px;
+    width: 100%;
 }
 
 .perfil-text{
+    width: 100vw;
+    max-width: 300px;
     margin-top: 20px;
     margin-bottom: 80px;
     color: white;
+    text-align: center;
+    justify-content: center     ;
 }
 
+
+.perfil-text h1{
+    width: 100%;
+    text-align: center;
+    margin: 15px;
+}
+
+.perfil h2{
+    width: 100%;
+    text-align: center;
+    margin: 15px;
+}
+
+
 .digitando h2{
+    margin: 0 auto;
+    font-size: 1.2rem;
     font-weight: 100;
     border-right: 2px solid white;
-    width: 31ch;
+
+    width: 30ch;
     white-space: nowrap;
     overflow: hidden;
     animation: typing 5s steps(31), 
@@ -135,18 +163,22 @@ a{
 }
 
 .botoes{
-    margin-bottom: -100px;
-    width: 800px;
+    margin: 15px;
+    width: 80vw;
+    max-width: 800px;
     height: 100px;
     align-content: center; /*alinhamento vertical*/
 }
 
 .botoes button{
-    width: 150px;
+    width: 25vw;
+    min-width: 110px;
+    max-width: 150px;
     height: 60px;
-    margin: auto 20px;
+    margin: 20px;
     font-size: 20px;
     font-weight: 100;
+    transition: .5s;
 }
 
 .botoes button:hover{
@@ -172,12 +204,14 @@ a{
     color: white;
     width: 100%;
     height: 80vh;
+    max-height: 300px;
     justify-items: center; /*alinhamento horizontal dos elementos*/
     align-content: center; /*Alinhamento vertical das divs*/
 }
 
 .faculdade h2{
     color: black;
+    transition: .5s;
 
 }
 
@@ -186,23 +220,24 @@ a{
 }
 
 .faculdade img{
-    width: 150px;
+    max-width: 150px;
     margin-bottom: 30px;
     border-radius: 30px;
 }
 
 .cursos{
-    height: 80vh;
+    height: auto;
     width: 100%;
     display: grid;
     justify-items: center;
     align-content: center;
     align-items: center;
+    margin-bottom: 150px;
 }
 
 .curso{
     background: #ffffff49; 
-    margin: 5px; 
+    margin: 25px; 
     height: 180px;
     width: 80%;
     display: grid;
@@ -211,6 +246,7 @@ a{
     justify-items: center;
     border-radius: 30px;
     border: 1px solid white;
+    transition: .5s;
 }
 
 .curso:hover{
@@ -227,7 +263,8 @@ a{
 
 .curso-img img{
     border-radius: 20px;
-    width: 80px;
+    width: 8vw;
+    max-width: 80px;
     text-align: center;
 
 }
@@ -242,7 +279,9 @@ a{
 
 .curso h3{
     color: rgb(0, 0, 0);
-    width: auto;}
+    width: auto;
+    transition: .5s;
+}
 
 .curso h3:hover{
     color: rgb(255, 255, 255);
@@ -265,6 +304,8 @@ a{
 
 
 .projetos{
+    margin-top: 1000px;
+    height: 100%;
     text-align: center;
     margin: 0 auto;
     width: 100%;
@@ -273,18 +314,33 @@ a{
 }
 
 .card{
-    width: 95%;
-    height: auto;
+    width: 90vw;
+    height: 30vh;
+    max-height: 500px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 50px auto;
     color: white;
+    justify-content: center;
+}
+
+.card h3{
+    text-align: justify;
+    margin: 0 auto;
+    width: 80%;
 }
 
 
 .card img{
-    height: 350px;
+    margin: auto 0;
+    width: 40vw;
+    transition: .6s;
 }
+
+.card img:hover{
+    transform: scale(1.03);
+}
+
 
 
 
@@ -299,6 +355,7 @@ a{
     margin-top: 30px;
     cursor: pointer;
     font-weight: 800;
+    transition: .5s;
 }
 
 .card-button:hover{
@@ -322,16 +379,27 @@ a{
 
 .contatos button{
     background-color: transparent;
-    margin: auto 25px;
-    width: 150px;
+    margin: auto;
+    width: 10vw;
+    max-width: 100px;
     height: 100px;
     color: black;
     border: 0px;
     cursor: pointer;
+    transition: .5s;
+}
+
+.contatos button:hover{
+    transform: scale(1.3);
+}
+
+.contatos h1{
+    font-size: 1rem;
 }
 
 .ctt img{
-    width: 50px;
+    width: 5vw;
+    max-width: 50px;
     height: auto;
 }
 
@@ -357,4 +425,61 @@ a{
 .gui h2{
     font-size: 18px;
     font-weight: 100;
+}
+
+
+@media screen and (max-width:1000px){
+
+    .perfil{
+        height: auto;
+    }
+
+    .formacoes, .card{
+        grid-template-columns: 1fr;
+    }
+
+    .card{
+        height: 500px;
+    }
+
+    .card img{
+        margin: 25px auto;
+        width: 70vw;
+    }
+
+    .digitando h2{
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width:685px) {
+    .nav{
+        grid-template-columns: 1fr 3fr;
+    }    
+
+    .digitando{
+        display: none;
+    }
+
+    .faculdade img{
+        width: 25vw;
+    }
+
+    .foto{
+        width: 50vw;
+    }
+
+    .perfil-text h1{
+        font-size: 1.5rem;
+    }
+
+    .perfil-text h2{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:490px) {
+    .nav{
+        display: none;
+    }    
 }
