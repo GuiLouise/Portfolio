@@ -97,6 +97,7 @@ a{
     justify-items: center; /*alinhamento horizontal dos elementos*/
     align-content: center; /*Alinhamento vertical das divs*/
     align-items: center;
+    text-align: center;
 }
 
 .foto{
@@ -177,6 +178,7 @@ a{
     align-content: center; /*alinhamento vertical*/
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .botoes button{
