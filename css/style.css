@@ -172,7 +172,7 @@ a{
 
 .botoes{
     margin: 15px;
-    width: 80vw;
+    width: 100vw;
     max-width: 800px;
     height: 100px;
     align-content: center; /*alinhamento vertical*/
@@ -220,7 +220,10 @@ a{
     align-content: center; /*Alinhamento vertical das divs*/
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
+
+
 
 .faculdade h2{
     color: black;
@@ -449,6 +452,10 @@ a{
 
     .formacoes, .card{
         grid-template-columns: 1fr;
+    }
+
+    .faculdade img{
+        margin: 25px auto;
     }
 
     .formacoes{
