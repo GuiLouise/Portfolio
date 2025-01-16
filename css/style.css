@@ -102,7 +102,7 @@ a{
 
 .foto{
     width: 15vw;
-    min-width: 250px;
+    min-width: ;
     max-width: 300px;
     margin: 40px auto;
     text-align: center;
@@ -172,7 +172,7 @@ a{
 
 .botoes{
     margin: 15px;
-    width: 100%;
+    width: 95%;
     max-width: 800px;
     height: 100px;
     align-content: center; /*alinhamento vertical*/
@@ -494,6 +494,7 @@ a{
     }
 
     .foto{
+        min-width: none;
         width: 50vw;
     }
 
