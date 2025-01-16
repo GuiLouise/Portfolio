@@ -90,15 +90,17 @@ a{
     margin: 0 auto;
 
     text-align: center; /*alinhamento horizontal dos textos*/
+    justify-content: center;
     justify-items: center; /*alinhamento horizontal dos elementos*/
     align-content: center; /*Alinhamento vertical das divs*/
+    align-items: center;
 }
 
 .foto{
     width: 15vw;
     min-width: 250px;
     max-width: 300px;
-    margin-top: 50px;
+    margin: 40px auto;
     text-align: center;
 
 }
@@ -192,7 +194,7 @@ a{
 
 
 .formacoes{
-    height: 100vh;
+    height: 80vh;
     width: 95%;
     align-items: center;
     display: grid;
@@ -203,10 +205,12 @@ a{
 .faculdade{
     color: white;
     width: 100%;
-    height: 80vh;
+    height: 100%;
     max-height: 300px;
     justify-items: center; /*alinhamento horizontal dos elementos*/
     align-content: center; /*Alinhamento vertical das divs*/
+    justify-content: center;
+    align-items: center;
 }
 
 .faculdade h2{
@@ -221,7 +225,7 @@ a{
 
 .faculdade img{
     max-width: 150px;
-    margin-bottom: 30px;
+    margin: 30px auto;
     border-radius: 30px;
 }
 
@@ -436,6 +440,14 @@ a{
 
     .formacoes, .card{
         grid-template-columns: 1fr;
+    }
+
+    .formacoes{
+        height: 990px;
+    }
+
+    .curso{
+        height: 230px;
     }
 
     .card{
