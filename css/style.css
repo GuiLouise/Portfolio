@@ -139,38 +139,9 @@ a{
     text-align: center;
     margin: 0 auto;
 }
-.digitando{
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-}
 
-.digitando h2{
-    margin: 0 auto;
-    font-size: 1.2rem;
-    font-weight: 100;
-    border-right: 2px solid white;
-
-    width: 30ch;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: typing 5s steps(31), 
-    blinking .5s step-end alternate;
-
-}
-
-@keyframes typing {
-    from{/*from*/
-        width: 0;
-    }
-    
-}
-
-@keyframes blinking {
-    50%{
-        border-color: transparent;
-    }
-    
+.perfil-skill{
+    font-size: .8rem;
 }
 
 .botoes{
