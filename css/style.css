@@ -130,13 +130,13 @@ a{
 
 
 .perfil-text h1{
-    width: 100%;
+
     text-align: center;
     margin: 15px auto;
 }
 
 .perfil h2{
-    width: 100%;
+
     text-align: center;
     margin: 15px auto;
 }
@@ -172,7 +172,7 @@ a{
 
 .botoes{
     margin: 15px;
-    width: 100vw;
+    width: 100%;
     max-width: 800px;
     height: 100px;
     align-content: center; /*alinhamento vertical*/
