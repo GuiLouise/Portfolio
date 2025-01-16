@@ -12,7 +12,8 @@ body{
     height: 100%;
     background: linear-gradient(45deg, #0057b9, #ff00f2, #008fbe);
     justify-content: center;
-
+    text-align: center;
+    
   
     overflow-x: hidden;
 }
@@ -102,7 +103,6 @@ a{
 
 .foto{
     width: 15vw;
-    min-width: ;
     max-width: 300px;
     margin: 40px auto;
     text-align: center;
