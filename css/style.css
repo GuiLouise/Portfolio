@@ -12,6 +12,9 @@ body{
     height: 100%;
     background: linear-gradient(45deg, #0057b9, #ff00f2, #008fbe);
     justify-content: center;
+
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 button{
@@ -86,7 +89,7 @@ a{
 
 .perfil{
     width: 100vw;
-    height: 99vh;
+    height: 70vh;
     margin: 0 auto;
 
     text-align: center; /*alinhamento horizontal dos textos*/
@@ -119,20 +122,22 @@ a{
     margin-bottom: 80px;
     color: white;
     text-align: center;
-    justify-content: center     ;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 
 .perfil-text h1{
     width: 100%;
     text-align: center;
-    margin: 15px;
+    margin: 15px auto;
 }
 
 .perfil h2{
     width: 100%;
     text-align: center;
-    margin: 15px;
+    margin: 15px auto;
 }
 
 
@@ -170,6 +175,8 @@ a{
     max-width: 800px;
     height: 100px;
     align-content: center; /*alinhamento vertical*/
+    justify-content: center;
+    align-items: center;
 }
 
 .botoes button{
